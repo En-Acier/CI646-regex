@@ -11,7 +11,7 @@ public class PhoneNumbers {
     // regexes. Thus, the regex '\d' becomes '\\d' in Java. See
     // http://docs.oracle.com/javase/tutorial/essential/regex/ for details.
 
-    private static final String regex = "REGEX"; //modify this string to add your regex.
+    private static final String regex = "[+]?[1-9]{2}[1][1-9]{3}[1-6]{6}|[0][1][1-9]{3}[ ]?[1-6]{6}"; //modify this string to add your regex.
                                                  //You can of course make more string variables to hold regexes.
     private static final String prompt = "Enter a phone number or press return to end: ";
 
